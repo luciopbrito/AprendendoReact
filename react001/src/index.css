@@ -4,7 +4,12 @@
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: rgb(240, 222, 144);
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
