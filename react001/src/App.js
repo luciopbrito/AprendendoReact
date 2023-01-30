@@ -1,13 +1,12 @@
 import React from "react";
 import "./index.css"
-import Texto from "./components/Texto"
+import Comment from "./components/Comment/Comment";
 
 function App(){
     return (
         <div>
-            <h1>Olá React</h1>
-            <Texto></Texto>
-            <Texto />
+            <h1>Comentário</h1>
+            <Comment />
         </div>
     )
 }
