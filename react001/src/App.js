@@ -5,8 +5,10 @@ import Comment from "./components/Comment/Comment";
 function App(){
     return (
         <div>
-            <h1>Comentário</h1>
-            <Comment />
+            <h1>Comentários</h1>
+            <Comment title="Comentário Um" author="João Ribeiro"/>
+            <Comment title="Comentário Dois" author="Ana Silva"/>
+            <Comment title="Comentário Três" author="Carlos Alberto"/>
         </div>
     )
 }
