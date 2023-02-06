@@ -1,14 +1,15 @@
 import React from "react";
 import "./index.css"
-import Comment from "./components/Comment/Comment";
+import ComponenteUm from "./components/ComponenteUm/ComponenteUm";
+import ComponenteDois from "./components/ComponenteDois/ComponenteDois";
+import ComponenteTres from "./components/ComponenteTres/ComponenteTres";
 
 function App(){
     return (
         <div>
-            <h1>Comentários</h1>
-            <Comment title="Comentário Um" author="João Ribeiro"/>
-            <Comment title="Comentário Dois" author="Ana Silva"/>
-            <Comment title="Comentário Três" author="Carlos Alberto"/>
+            <ComponenteTres titulo="teste"/>
+            <ComponenteDois />
+            <ComponenteUm />
         </div>
     )
 }
