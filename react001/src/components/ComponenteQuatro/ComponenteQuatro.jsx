@@ -5,6 +5,7 @@ const ComponenteQuatro = (props) => {
     return (
         <div className="componente">
             <p>Título: {props.titulo}</p>
+            
             <ComponenteCinco texto="propriedade do componente"/>
             <ComponenteCinco texto="propriedade do componente"/>
             <ComponenteCinco texto="propriedade do componente"/>
