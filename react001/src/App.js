@@ -7,10 +7,12 @@ import ComponenteQuatro from "./components/ComponenteQuatro/ComponenteQuatro";
 import ComponenteSeis from "./components/ComponenteSeis/ComponenteSeis";
 import ComponenteSete from "./components/ComponenteSete/ComponenteSete";
 import ComponenteOito from "./components/ComponenteOito/ComponenteOito";
+import ComponenteNove from "./components/ComponenteNove/ComponenteNove";
 
 function App(){
     return (
-        <div>            
+        <div>   
+            <ComponenteNove titulo="Componente Nove" valor="pedro"/>         
             <ComponenteOito titulo="Componente Sete" valor="pedro"/>
             
             <ComponenteSete titulo="Componente Sete" valor={0}/>
