@@ -8,10 +8,13 @@ import ComponenteSeis from "./components/ComponenteSeis/ComponenteSeis";
 import ComponenteSete from "./components/ComponenteSete/ComponenteSete";
 import ComponenteOito from "./components/ComponenteOito/ComponenteOito";
 import ComponenteNove from "./components/ComponenteNove/ComponenteNove";
+import ComponenteDez from "./components/ComponenteDez/ComponenteDez";
 
 function App(){
     return (
         <div>   
+            <ComponenteDez titulo="Componente Dez" corTexto="green"/>
+
             <ComponenteNove titulo="Componente Nove" valor="pedro"/>         
             <ComponenteOito titulo="Componente Sete" valor="pedro"/>
             
