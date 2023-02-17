@@ -9,11 +9,16 @@ import ComponenteSete from "./components/ComponenteSete/ComponenteSete";
 import ComponenteOito from "./components/ComponenteOito/ComponenteOito";
 import ComponenteNove from "./components/ComponenteNove/ComponenteNove";
 import ComponenteDez from "./components/ComponenteDez/ComponenteDez";
-import ComponentePai from "./components/ComponentePai/ComponentePai";
+import ComponentePai from "./components/comunicacao_direta/ComponentePai/ComponentePai";
+import ComponenteMae from "./components/comunicao_indireta/ComponenteMae/ComponenteMae";
 
 function App(){
     return (
         <div>   
+            <ComponenteMae titulo="Comunicação Indireta" >
+                
+            </ComponenteMae>
+
             <ComponentePai titulo="Comunicação Direta" />
 
             <ComponenteDez titulo="Componente Dez" corTexto="green"/>
