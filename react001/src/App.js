@@ -12,10 +12,12 @@ import ComponenteDez from "./components/ComponenteDez/ComponenteDez";
 import ComponentePai from "./components/comunicacao_direta/ComponentePai/ComponentePai";
 import ComponenteMae from "./components/comunicao_indireta/ComponenteMae/ComponenteMae";
 import ComponenteA from "./components/comunicacao_indireta_2/ComponenteA/ComponenteA";
+import ComponenteAvoA from "./components/comunicacao_direta_2/ComponenteAvoA/ComponenteAvoA";
 
 function App(){
     return (
         <div>   
+            <ComponenteAvoA />
 
             <ComponenteA titulo="Comunicação Indireta v2" />
 
